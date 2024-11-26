@@ -71,7 +71,7 @@ Here are some scenarios and types of applications where StatefulSets are commonl
 
  2. **Messaging Systems:** Applications utilizing messaging systems such as Apache Kafka or RabbitMQ benefit from StatefulSets due to their need for persistent storage, ordered scaling, and stable network identities for message brokers.
 
- 3. **Stateful Microservices: **Certain microservices architectures that need persistence or maintain state, like caching systems (Redis, Memcached), benefit from StatefulSets.
+ 3. **Stateful Microservices:** Certain microservices architectures that need persistence or maintain state, like caching systems (Redis, Memcached), benefit from StatefulSets.
 
  4. **Applications Requiring Ordered Deployment:** When you need to deploy pods in a specific order or require each pod to maintain its identity, such as in master-slave configurations, StatefulSets are the ideal choice.
 
